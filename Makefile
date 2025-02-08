@@ -1,6 +1,6 @@
 CFLAGS ?= -Os -DF_APU=16000000UL -mmcu=atmega328p
 LDFLAGS ?= -mmcu=atmega328p
-ARDUINO_USB ?= /dev/ttyUSB0
+ARDUINO_USB ?= /dev/ttyUSB0 #/dev/ttyACM0
 
 all: main.hex
 
